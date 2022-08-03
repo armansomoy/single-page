@@ -370,6 +370,9 @@ body {
     font-size: 16px; }
 
   body #main-design .right-side .moves-box .heading {
-    padding: 20px 0px 30px; } }
+    padding: 20px 0px 30px; }
+
+  body #main-design .left-side .frame h4 {
+    padding-top: 25px; } }
 
 /*# sourceMappingURL=style.css.map */
