@@ -25,9 +25,38 @@
     .abilities-box {
         text-align: center;
 
-        ul > :first-child {
+        ul> :first-child {
             margin-right: 0px !important;
         }
+
+        ul> :nth-child(3) {
+            margin-right: 0px !important;
+        }
+    }
+
+    body #main-design .right-side {
+        padding: 50px 30px;
+    }
+
+    body #main-design .right-side .title {
+        font-size: 60px;
+    }
+
+    body #main-design .right-side .description-title {
+        padding-top: 0px;
+    }
+
+    body #main-design .right-side .description-text {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    body #main-design .right-side .moves-box P {
+        font-size: 16px;
+    }
+
+    body #main-design .right-side .moves-box .heading {
+        padding: 20px 0px 30px;
     }
 
 }
