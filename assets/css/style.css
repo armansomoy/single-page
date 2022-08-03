@@ -1,0 +1,354 @@
+/* Reset CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: none; }
+
+* {
+  scrollbar-width: thin; }
+
+::-webkit-scrollbar {
+  width: 5px; }
+
+html,
+body {
+  scroll-behavior: smooth; }
+
+/* Change text & background color */
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
+
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none; }
+
+img {
+  vertical-align: middle; }
+
+ul,
+ol {
+  list-style: none; }
+
+@font-face {
+  font-family: 'Herculanum-Regular';
+  src: url("../fonts/Herculanum-Regular.ttf"); }
+@font-face {
+  font-family: 'Metropolis-Regular';
+  src: url("../fonts/Metropolis-Regular.otf"); }
+@font-face {
+  font-family: 'Metropolis-SemiBold';
+  src: url("../fonts/Metropolis-SemiBold.otf"); }
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url("../fonts/Metropolis-Bold.otf"); }
+body {
+  background-color: skyblue; }
+  body #main-design {
+    padding: 100px 0px; }
+    body #main-design .design-box {
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+    body #main-design .col-lg-5 {
+      padding: 0; }
+    body #main-design .col-lg-7 {
+      padding: 0; }
+    body #main-design .left-side {
+      background-color: #303030;
+      padding: 70px 100px; }
+      body #main-design .left-side .frame {
+        border: 2px solid #755F38;
+        padding: 40px 30px;
+        text-align: center; }
+        body #main-design .left-side .frame .frame-img {
+          height: 420px;
+          overflow: hidden; }
+          body #main-design .left-side .frame .frame-img img {
+            width: 100%; }
+        body #main-design .left-side .frame h4 {
+          font-family: 'Metropolis-Regular';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 28px;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+          background: linear-gradient(340.71deg, #755F38 -0.76%, #D6C9A3 97.19%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+          text-fill-color: transparent; }
+      body #main-design .left-side .quote-text {
+        font-family: 'Baskervville', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        background: linear-gradient(340.71deg, #755F38 -0.76%, #D6C9A3 97.19%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        text-align: center;
+        margin: 40px 20px;
+        position: relative; }
+        body #main-design .left-side .quote-text::after {
+          position: absolute;
+          content: "";
+          top: -5px;
+          left: 0;
+          width: 100%;
+          height: 1px;
+          background-color: #FFFFFF; }
+      body #main-design .left-side .types-box {
+        padding-bottom: 20px; }
+        body #main-design .left-side .types-box .box-heading {
+          font-family: 'Metropolis-SemiBold';
+          font-size: 40px;
+          line-height: 40px;
+          color: #E9DE3F;
+          text-transform: uppercase;
+          text-align: center;
+          padding-bottom: 20px; }
+        body #main-design .left-side .types-box .boxes {
+          text-align: center;
+          margin-bottom: 30px; }
+          body #main-design .left-side .types-box .boxes .box {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin: 0px 10px; }
+            body #main-design .left-side .types-box .boxes .box .box-text {
+              font-family: 'Baskervville', serif;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 53px;
+              text-align: center;
+              color: #FFFFFF; }
+          body #main-design .left-side .types-box .boxes .title {
+            font-family: 'Baskervville', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #E9DE3F; }
+          body #main-design .left-side .types-box .boxes .enchanlers {
+            background-color: #000000; }
+          body #main-design .left-side .types-box .boxes .peacocks {
+            background-color: #1A3D53; }
+          body #main-design .left-side .types-box .boxes .atmos {
+            background-color: #ACACAC; }
+          body #main-design .left-side .types-box .boxes .alchemists {
+            background-color: #351858; }
+          body #main-design .left-side .types-box .boxes .snakes {
+            background-color: #357089; }
+          body #main-design .left-side .types-box .boxes .berzerkers {
+            background-color: #812341; }
+          body #main-design .left-side .types-box .boxes .gardeners {
+            background-color: #005D2E; }
+          body #main-design .left-side .types-box .boxes .fairies {
+            background-color: #E78191; }
+          body #main-design .left-side .types-box .boxes .razens {
+            background-color: #000; }
+          body #main-design .left-side .types-box .boxes .mebusinas {
+            background-color: #5100FF; }
+          body #main-design .left-side .types-box .boxes .morphos {
+            background-color: #71F7FB; }
+          body #main-design .left-side .types-box .boxes .mothcts {
+            background-color: #26171E; }
+      body #main-design .left-side .stats-box {
+        padding-bottom: 20px; }
+        body #main-design .left-side .stats-box .box-heading {
+          font-family: 'Metropolis-SemiBold';
+          font-size: 40px;
+          line-height: 40px;
+          color: #E9DE3F;
+          text-transform: uppercase;
+          text-align: center;
+          padding-bottom: 20px; }
+        body #main-design .left-side .stats-box .boxes {
+          text-align: center;
+          margin-bottom: 30px; }
+          body #main-design .left-side .stats-box .boxes .box {
+            width: 60px;
+            height: 60px;
+            margin: 0px 10px; }
+            body #main-design .left-side .stats-box .boxes .box .box-text {
+              font-family: 'Baskervville', serif;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 53px;
+              text-align: center;
+              color: #FFFFFF; }
+          body #main-design .left-side .stats-box .boxes .title {
+            font-family: 'Baskervville', serif;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: #E9DE3F; }
+          body #main-design .left-side .stats-box .boxes .enchanlers {
+            background-color: #000000; }
+          body #main-design .left-side .stats-box .boxes .peacocks {
+            background-color: #1A3D53; }
+          body #main-design .left-side .stats-box .boxes .atmos {
+            background-color: #ACACAC; }
+          body #main-design .left-side .stats-box .boxes .alchemists {
+            background-color: #351858; }
+          body #main-design .left-side .stats-box .boxes .snakes {
+            background-color: #357089; }
+          body #main-design .left-side .stats-box .boxes .berzerkers {
+            background-color: #812341; }
+          body #main-design .left-side .stats-box .boxes .gardeners {
+            background-color: #005D2E; }
+          body #main-design .left-side .stats-box .boxes .fairies {
+            background-color: #E78191; }
+          body #main-design .left-side .stats-box .boxes .razens {
+            background-color: #000; }
+          body #main-design .left-side .stats-box .boxes .mebusinas {
+            background-color: #5100FF; }
+          body #main-design .left-side .stats-box .boxes .morphos {
+            background-color: #71F7FB; }
+          body #main-design .left-side .stats-box .boxes .mothcts {
+            background-color: #26171E; }
+      body #main-design .left-side .abilities-box .box-heading {
+        font-family: 'Metropolis-SemiBold';
+        font-size: 40px;
+        line-height: 40px;
+        color: #E9DE3F;
+        text-transform: uppercase;
+        text-align: center;
+        padding-bottom: 20px; }
+      body #main-design .left-side .abilities-box ul {
+        padding-left: 0px; }
+        body #main-design .left-side .abilities-box ul li {
+          display: inline-block;
+          margin-bottom: 36px; }
+          body #main-design .left-side .abilities-box ul li a {
+            padding: 12px 45px;
+            font-family: 'Baskervville', serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 21px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            background: #5E5E5E;
+            border-radius: 25px; }
+    body #main-design .right-side {
+      background-color: #fff;
+      padding: 125px 60px 90px; }
+      body #main-design .right-side .title {
+        font-family: 'Metropolis-SemiBold';
+        font-size: 80px;
+        line-height: 80px;
+        letter-spacing: 0.2em;
+        color: #222222;
+        text-align: center; }
+      body #main-design .right-side .description-title {
+        font-family: 'Baskervville', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        color: #222222;
+        text-align: center;
+        padding-top: 10px; }
+      body #main-design .right-side .description-text {
+        font-family: 'Baskervville', serif;
+        font-style: italic;
+        font-size: 20px;
+        line-height: 26px;
+        color: #222222;
+        text-align: center;
+        padding: 10px 115px; }
+      body #main-design .right-side .text-box .text-box-title {
+        font-family: 'Metropolis-Bold';
+        font-size: 32px;
+        line-height: 32px;
+        color: #222222;
+        text-align: center; }
+      body #main-design .right-side .text-box .text-box-p {
+        font-family: 'Baskervville', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000; }
+      body #main-design .right-side .symbolism-box .heading {
+        font-family: 'Baskervville', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        color: #222222;
+        text-align: center;
+        padding: 40px 0px 25px; }
+      body #main-design .right-side .symbolism-box .symbol-box {
+        margin-bottom: 40px;
+        text-align: center; }
+        body #main-design .right-side .symbolism-box .symbol-box .symbol-img {
+          height: 150px;
+          width: 150px;
+          overflow: hidden;
+          margin: 0 auto; }
+          body #main-design .right-side .symbolism-box .symbol-box .symbol-img img {
+            width: 100%; }
+        body #main-design .right-side .symbolism-box .symbol-box .symbol-title {
+          font-family: 'Metropolis-Bold';
+          font-size: 32px;
+          line-height: 32px;
+          color: #222222;
+          padding: 15px 0px 10px; }
+        body #main-design .right-side .symbolism-box .symbol-box .symbol-p {
+          font-family: 'Baskervville', serif;
+          font-style: italic;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 26px;
+          color: #000000; }
+      body #main-design .right-side .moves-box .heading {
+        font-family: 'Baskervville', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 52px;
+        color: #222222;
+        text-align: center;
+        padding: 40px 0px 29px; }
+      body #main-design .right-side .moves-box P {
+        font-family: 'Baskervville', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-align: justify;
+        letter-spacing: 0.02em; }
+
+/*======== large device =========*/
+/*======== medium device =========*/
+/*======== small device =========*/
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+  body #main-design {
+    padding: 0px; }
+
+  body #main-design .left-side {
+    padding: 50px 30px; }
+
+  body #main-design .left-side .frame .frame-img {
+    height: 330px; }
+
+  .abilities-box {
+    text-align: center; }
+    .abilities-box ul > :first-child {
+      margin-right: 0px !important; } }
+
+/*# sourceMappingURL=style.css.map */

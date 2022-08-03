@@ -1,0 +1,33 @@
+/*======== large device =========*/
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*======== medium device =========*/
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*======== small device =========*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/*======== Extra small device =========*/
+@media (max-width: 575.98px) {
+    body #main-design {
+        padding: 0px;
+    }
+
+    body #main-design .left-side {
+
+        padding: 50px 30px;
+    }
+
+    body #main-design .left-side .frame .frame-img {
+        height: 330px;
+    }
+
+    .abilities-box {
+        text-align: center;
+
+        ul > :first-child {
+            margin-right: 0px !important;
+        }
+    }
+
+}

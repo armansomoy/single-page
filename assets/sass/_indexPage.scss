@@ -1,0 +1,430 @@
+body {
+    background-color: skyblue;
+
+    #main-design {
+        padding: 100px 0px;
+
+        .design-box {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+
+        .col-lg-5 {
+            padding: 0;
+        }
+
+        .col-lg-7 {
+            padding: 0;
+        }
+
+        .left-side {
+            background-color: #303030;
+            padding: 70px 100px;
+
+            .frame {
+                border: 2px solid #755F38;
+                padding: 40px 30px;
+                text-align: center;
+
+                .frame-img {
+                    height: 420px;
+                    overflow: hidden;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                h4 {
+                    font-family: 'Metropolis-Regular';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 28px;
+                    letter-spacing: 0.2em;
+                    text-transform: uppercase;
+                    background: linear-gradient(340.71deg, #755F38 -0.76%, #D6C9A3 97.19%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+            }
+
+            .quote-text {
+                font-family: 'Baskervville', serif;
+                font-style: italic;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 26px;
+                background: linear-gradient(340.71deg, #755F38 -0.76%, #D6C9A3 97.19%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                text-align: center;
+                margin: 40px 20px;
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: -5px;
+                    left: 0;
+                    width: 100%;
+                    height: 1px;
+                    background-color: #FFFFFF;
+                }
+            }
+
+            .types-box {
+                padding-bottom: 20px;
+
+                .box-heading {
+                    font-family: 'Metropolis-SemiBold';
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: #E9DE3F;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+
+                .boxes {
+                    text-align: center;
+                    margin-bottom: 30px;
+
+                    .box {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        margin: 0px 10px;
+
+                        .box-text {
+                            font-family: 'Baskervville', serif;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 53px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .title {
+                        font-family: 'Baskervville', serif;
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-transform: capitalize;
+                        color: #E9DE3F;
+                    }
+
+                    .enchanlers {
+                        background-color: #000000;
+                    }
+
+                    .peacocks {
+                        background-color: #1A3D53;
+
+                    }
+
+                    .atmos {
+                        background-color: #ACACAC;
+                    }
+
+                    .alchemists {
+                        background-color: #351858;
+                    }
+
+                    .snakes {
+                        background-color: #357089;
+                    }
+
+                    .berzerkers {
+                        background-color: #812341;
+                    }
+
+                    .gardeners {
+                        background-color: #005D2E;
+                    }
+
+                    .fairies {
+                        background-color: #E78191;
+                    }
+
+                    .razens {
+                        background-color: #000;
+                    }
+
+                    .mebusinas {
+                        background-color: #5100FF;
+                    }
+
+                    .morphos {
+                        background-color: #71F7FB;
+                    }
+
+                    .mothcts {
+                        background-color: #26171E;
+                    }
+                }
+
+
+            }
+
+            .stats-box {
+                padding-bottom: 20px;
+
+                .box-heading {
+                    font-family: 'Metropolis-SemiBold';
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: #E9DE3F;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+
+                .boxes {
+                    text-align: center;
+                    margin-bottom: 30px;
+
+                    .box {
+                        width: 60px;
+                        height: 60px;
+                        margin: 0px 10px;
+
+                        .box-text {
+                            font-family: 'Baskervville', serif;
+                            font-weight: 400;
+                            font-size: 22px;
+                            line-height: 53px;
+                            text-align: center;
+                            color: #FFFFFF;
+                        }
+                    }
+
+                    .title {
+                        font-family: 'Baskervville', serif;
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-transform: capitalize;
+                        color: #E9DE3F;
+                    }
+
+                    .enchanlers {
+                        background-color: #000000;
+                    }
+
+                    .peacocks {
+                        background-color: #1A3D53;
+
+                    }
+
+                    .atmos {
+                        background-color: #ACACAC;
+                    }
+
+                    .alchemists {
+                        background-color: #351858;
+                    }
+
+                    .snakes {
+                        background-color: #357089;
+                    }
+
+                    .berzerkers {
+                        background-color: #812341;
+                    }
+
+                    .gardeners {
+                        background-color: #005D2E;
+                    }
+
+                    .fairies {
+                        background-color: #E78191;
+                    }
+
+                    .razens {
+                        background-color: #000;
+                    }
+
+                    .mebusinas {
+                        background-color: #5100FF;
+                    }
+
+                    .morphos {
+                        background-color: #71F7FB;
+                    }
+
+                    .mothcts {
+                        background-color: #26171E;
+                    }
+                }
+
+
+            }
+
+            .abilities-box {
+                .box-heading {
+                    font-family: 'Metropolis-SemiBold';
+                    font-size: 40px;
+                    line-height: 40px;
+                    color: #E9DE3F;
+                    text-transform: uppercase;
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+
+                ul {
+                    padding-left: 0px;
+
+                    li {
+                        display: inline-block;
+                        margin-bottom: 36px;
+
+                        a {
+                            padding: 12px 45px;
+                            font-family: 'Baskervville', serif;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 21px;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            background: #5E5E5E;
+                            border-radius: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-side {
+            background-color: #fff;
+            padding: 125px 60px 90px;
+
+            .title {
+                font-family: 'Metropolis-SemiBold';
+                font-size: 80px;
+                line-height: 80px;
+                letter-spacing: 0.2em;
+                color: #222222;
+                text-align: center;
+            }
+
+            .description-title {
+                font-family: 'Baskervville', serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 40px;
+                line-height: 52px;
+                color: #222222;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+            .description-text {
+                font-family: 'Baskervville', serif;
+                font-style: italic;
+                font-size: 20px;
+                line-height: 26px;
+                color: #222222;
+                text-align: center;
+                padding: 10px 115px;
+            }
+
+            .text-box {
+                .text-box-title {
+                    font-family: 'Metropolis-Bold';
+                    font-size: 32px;
+                    line-height: 32px;
+                    color: #222222;
+                    text-align: center;
+                }
+
+                .text-box-p {
+                    font-family: 'Baskervville', serif;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: center;
+                    color: #000000;
+                }
+            }
+
+            .symbolism-box {
+                .heading {
+                    font-family: 'Baskervville', serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 52px;
+                    color: #222222;
+                    text-align: center;
+                    padding: 40px 0px 25px;
+                }
+
+                .symbol-box {
+                    margin-bottom: 40px;
+                    text-align: center;
+
+                    .symbol-img {
+                        height: 150px;
+                        width: 150px;
+                        overflow: hidden;
+                        margin: 0 auto;
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+
+                    .symbol-title {
+                        font-family: 'Metropolis-Bold';
+                        font-size: 32px;
+                        line-height: 32px;
+                        color: #222222;
+                        padding: 15px 0px 10px;
+                    }
+
+                    .symbol-p {
+                        font-family: 'Baskervville', serif;
+                        font-style: italic;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 26px;
+                        color: #000000;
+                    }
+                }
+            }
+
+            .moves-box {
+
+                .heading {
+                    font-family: 'Baskervville', serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 40px;
+                    line-height: 52px;
+                    color: #222222;
+                    text-align: center;
+                    padding: 40px 0px 29px;
+                }
+
+                P {
+                    font-family: 'Baskervville', serif;
+                    font-style: italic;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 25px;
+                    text-align: justify;
+                    letter-spacing: 0.02em;
+
+                }
+            }
+        }
+    }
+}
