@@ -2,10 +2,105 @@
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
 /*======== medium device =========*/
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body #main-design .left-side .frame h4 {
+        padding-top: 30px;
+    }
+
+    body #main-design .left-side .stats-box .boxes .box {
+        margin: 0px 25px;
+    }
+
+    body #main-design .left-side .abilities-box ul li {
+        margin-left: 30px;
+    }
+
+    .abilities-box {
+        text-align: center;
+
+        ul> :first-child {
+            margin-right: 0px !important;
+        }
+
+        ul> :nth-child(3) {
+            margin-right: 0px !important;
+        }
+    }
+
+    body #main-design .left-side .types-box .boxes .box {
+        margin: 0px 24px;
+    }
+
+    body #main-design {
+        padding: 50px 0px;
+    }
+
+}
 
 /*======== small device =========*/
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body #main-design {
+        padding: 50px 0px;
+    }
+
+    body #main-design .left-side {
+
+        padding: 50px 30px;
+    }
+
+    body #main-design .left-side .frame .frame-img {
+        height: 330px;
+    }
+
+    .abilities-box {
+        text-align: center;
+
+        ul> :first-child {
+            margin-right: 0px !important;
+        }
+
+        ul> :nth-child(3) {
+            margin-right: 0px !important;
+        }
+    }
+
+    body #main-design .right-side {
+        padding: 50px 30px;
+    }
+
+    body #main-design .right-side .title {
+        font-size: 60px;
+    }
+
+    body #main-design .right-side .description-title {
+        padding-top: 0px;
+    }
+
+    body #main-design .right-side .description-text {
+        font-size: 16px;
+        padding: 10px 0px;
+    }
+
+    body #main-design .right-side .moves-box P {
+        font-size: 16px;
+    }
+
+    body #main-design .right-side .moves-box .heading {
+        padding: 20px 0px 30px;
+    }
+
+    body #main-design .left-side .frame h4 {
+        padding-top: 25px;
+    }
+
+    body #main-design .left-side .types-box .boxes .box {
+        margin: 0px 22px;
+    }
+
+    body #main-design .left-side .stats-box .boxes .box {
+        margin: 0px 22px;
+    }
+}
 
 /*======== Extra small device =========*/
 @media (max-width: 575.98px) {
@@ -61,5 +156,13 @@
 
     body #main-design .left-side .frame h4 {
         padding-top: 25px;
+    }
+
+    body #main-design .left-side .types-box .boxes .box {
+        margin: 0px 16px;
+    }
+
+    body #main-design .left-side .stats-box .boxes .box {
+        margin: 0px 18px;
     }
 }
